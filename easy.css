@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #f4c531;
+}
+.wrapper{
+    box-sizing: border-box;
+    width: 28em;
+    padding: 2.5em 3em;
+    background-color: aliceblue;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.6rem;
+}
+.game-cotainter{
+    position: relative;
+    width: 100%;
+    display: grid;
+}
